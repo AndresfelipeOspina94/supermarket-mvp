@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\Proyectos\\Supermarket-mvp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D1CDB8F5-B21F-4322-8134-DCE192E62E7A}|Supermarket-mvp.csproj|c:\\users\\usuario\\documents\\proyectos\\supermarket-mvp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1CDB8F5-B21F-4322-8134-DCE192E62E7A}|Supermarket-mvp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1CDB8F5-B21F-4322-8134-DCE192E62E7A}|Supermarket-mvp.csproj|c:\\users\\usuario\\documents\\proyectos\\supermarket-mvp\\views\\ipaymodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1CDB8F5-B21F-4322-8134-DCE192E62E7A}|Supermarket-mvp.csproj|solutionrelative:views\\ipaymodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1CDB8F5-B21F-4322-8134-DCE192E62E7A}|Supermarket-mvp.csproj|c:\\users\\usuario\\documents\\proyectos\\supermarket-mvp\\views\\paymodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D1CDB8F5-B21F-4322-8134-DCE192E62E7A}|Supermarket-mvp.csproj|solutionrelative:views\\paymodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D1CDB8F5-B21F-4322-8134-DCE192E62E7A}|Supermarket-mvp.csproj|c:\\users\\usuario\\documents\\proyectos\\supermarket-mvp\\presenters\\paymodepresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1CDB8F5-B21F-4322-8134-DCE192E62E7A}|Supermarket-mvp.csproj|solutionrelative:presenters\\paymodepresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +22,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IPayModelView.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\Proyectos\\Supermarket-mvp\\Views\\IPayModelView.cs",
-              "RelativeDocumentMoniker": "Views\\IPayModelView.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\Proyectos\\Supermarket-mvp\\Views\\IPayModelView.cs",
-              "RelativeToolTip": "Views\\IPayModelView.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T03:09:46.499Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\Proyectos\\Supermarket-mvp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\Proyectos\\Supermarket-mvp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAATAAAA",
+              "Title": "PayModePresenter.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\Proyectos\\Supermarket-mvp\\Presenters\\PayModePresenter.cs",
+              "RelativeDocumentMoniker": "Presenters\\PayModePresenter.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\Proyectos\\Supermarket-mvp\\Presenters\\PayModePresenter.cs",
+              "RelativeToolTip": "Presenters\\PayModePresenter.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwDcAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T03:08:12.066Z",
+              "WhenOpened": "2024-04-09T03:45:19.606Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PayModelView.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\Proyectos\\Supermarket-mvp\\Views\\PayModelView.cs",
-              "RelativeDocumentMoniker": "Views\\PayModelView.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\Proyectos\\Supermarket-mvp\\Views\\PayModelView.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Views\\PayModelView.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-07T08:52:10.889Z",
-              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
