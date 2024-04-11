@@ -21,6 +21,8 @@ namespace Supermarket_mvp.Views
             AssociateAndRaiseViwEvents();
 
             tabControl1.TabPages.Remove(tabPagePayModeDetail);
+
+            BtnClose.Click += delegate { this.Close(); };
         }
         private void AssociateAndRaiseViwEvents()
         {
@@ -83,11 +85,15 @@ namespace Supermarket_mvp.Views
 
         private static PayModeView instance;
 
-        public static PayModeView GetInstance()
+        public static PayModeView GetInstance(Form parentContainer)
         {
             if (instance == null || instance.IsDisposed)
             {
                 instance = new PayModeView();
+                instance.MdiParent = parentContainer;
+
+                instance.FormBorderStyle = FormBorderStyle.None;
+                instance.Dock = DockStyle.Fill;
             }
             else
             {
