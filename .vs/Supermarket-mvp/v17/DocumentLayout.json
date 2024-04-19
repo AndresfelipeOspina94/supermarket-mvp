@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\F\\Documents\\2_Lenguaje informatico\\supermarket-mvp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D1CDB8F5-B21F-4322-8134-DCE192E62E7A}|Supermarket-mvp.csproj|c:\\users\\f\\documents\\2_lenguaje informatico\\supermarket-mvp\\models\\iprovidersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1CDB8F5-B21F-4322-8134-DCE192E62E7A}|Supermarket-mvp.csproj|solutionrelative:models\\iprovidersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1CDB8F5-B21F-4322-8134-DCE192E62E7A}|Supermarket-mvp.csproj|c:\\users\\f\\documents\\2_lenguaje informatico\\supermarket-mvp\\views\\iprovidersview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1CDB8F5-B21F-4322-8134-DCE192E62E7A}|Supermarket-mvp.csproj|solutionrelative:views\\iprovidersview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1CDB8F5-B21F-4322-8134-DCE192E62E7A}|Supermarket-mvp.csproj|c:\\users\\f\\documents\\2_lenguaje informatico\\supermarket-mvp\\models\\ipaymoderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1CDB8F5-B21F-4322-8134-DCE192E62E7A}|Supermarket-mvp.csproj|solutionrelative:models\\ipaymoderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1CDB8F5-B21F-4322-8134-DCE192E62E7A}|Supermarket-mvp.csproj|c:\\users\\f\\documents\\2_lenguaje informatico\\supermarket-mvp\\views\\ipaymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1CDB8F5-B21F-4322-8134-DCE192E62E7A}|Supermarket-mvp.csproj|solutionrelative:views\\ipaymodeview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IProvidersRepository.cs",
-              "DocumentMoniker": "C:\\Users\\F\\Documents\\2_Lenguaje informatico\\supermarket-mvp\\Models\\IProvidersRepository.cs",
-              "RelativeDocumentMoniker": "Models\\IProvidersRepository.cs",
-              "ToolTip": "C:\\Users\\F\\Documents\\2_Lenguaje informatico\\supermarket-mvp\\Models\\IProvidersRepository.cs",
-              "RelativeToolTip": "Models\\IProvidersRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Title": "IProvidersView.cs",
+              "DocumentMoniker": "C:\\Users\\F\\Documents\\2_Lenguaje informatico\\supermarket-mvp\\Views\\IProvidersView.cs",
+              "RelativeDocumentMoniker": "Views\\IProvidersView.cs",
+              "ToolTip": "C:\\Users\\F\\Documents\\2_Lenguaje informatico\\supermarket-mvp\\Views\\IProvidersView.cs",
+              "RelativeToolTip": "Views\\IProvidersView.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAowA0AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T21:03:29.104Z",
+              "WhenOpened": "2024-04-19T21:12:39.259Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IPayModeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\F\\Documents\\2_Lenguaje informatico\\supermarket-mvp\\Models\\IPayModeRepository.cs",
-              "RelativeDocumentMoniker": "Models\\IPayModeRepository.cs",
-              "ToolTip": "C:\\Users\\F\\Documents\\2_Lenguaje informatico\\supermarket-mvp\\Models\\IPayModeRepository.cs",
-              "RelativeToolTip": "Models\\IPayModeRepository.cs",
+              "Title": "IPayModeView.cs",
+              "DocumentMoniker": "C:\\Users\\F\\Documents\\2_Lenguaje informatico\\supermarket-mvp\\Views\\IPayModeView.cs",
+              "RelativeDocumentMoniker": "Views\\IPayModeView.cs",
+              "ToolTip": "C:\\Users\\F\\Documents\\2_Lenguaje informatico\\supermarket-mvp\\Views\\IPayModeView.cs",
+              "RelativeToolTip": "Views\\IPayModeView.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T21:06:32.854Z",
+              "WhenOpened": "2024-04-19T21:14:45.617Z",
               "EditorCaption": ""
             }
           ]
