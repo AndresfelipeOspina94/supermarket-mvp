@@ -1,6 +1,6 @@
 ﻿namespace Supermarket_mvp.Views
 {
-    partial class Category
+    partial class CategoryView
     {
         /// <summary>
         /// Required designer variable.
@@ -47,7 +47,7 @@
             label5 = new Label();
             label4 = new Label();
             label3 = new Label();
-            TxtCategoryObservation = new TextBox();
+            TxtCategoryDescription = new TextBox();
             TxtCategoryName = new TextBox();
             TxtCategoryId = new TextBox();
             panel1.SuspendLayout();
@@ -206,7 +206,7 @@
             tabPageCategoryDetail.Controls.Add(label5);
             tabPageCategoryDetail.Controls.Add(label4);
             tabPageCategoryDetail.Controls.Add(label3);
-            tabPageCategoryDetail.Controls.Add(TxtCategoryObservation);
+            tabPageCategoryDetail.Controls.Add(TxtCategoryDescription);
             tabPageCategoryDetail.Controls.Add(TxtCategoryName);
             tabPageCategoryDetail.Controls.Add(TxtCategoryId);
             tabPageCategoryDetail.Location = new Point(4, 24);
@@ -265,14 +265,14 @@
             label3.TabIndex = 11;
             label3.Text = "Pay Mode Id";
             // 
-            // TxtCategoryObservation
+            // TxtCategoryDescription
             // 
-            TxtCategoryObservation.Location = new Point(39, 157);
-            TxtCategoryObservation.Multiline = true;
-            TxtCategoryObservation.Name = "TxtCategoryObservation";
-            TxtCategoryObservation.PlaceholderText = "Pay Mode Observation";
-            TxtCategoryObservation.Size = new Size(272, 56);
-            TxtCategoryObservation.TabIndex = 10;
+            TxtCategoryDescription.Location = new Point(39, 157);
+            TxtCategoryDescription.Multiline = true;
+            TxtCategoryDescription.Name = "TxtCategoryDescription";
+            TxtCategoryDescription.PlaceholderText = "Pay Mode Observation";
+            TxtCategoryDescription.Size = new Size(272, 56);
+            TxtCategoryDescription.TabIndex = 10;
             // 
             // TxtCategoryName
             // 
@@ -292,14 +292,14 @@
             TxtCategoryId.Text = "0";
             TxtCategoryId.TextAlign = HorizontalAlignment.Right;
             // 
-            // Category
+            // CategoryView
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(tabControl1);
             Controls.Add(panel1);
-            Name = "Category";
+            Name = "CategoryView";
             Text = "Category";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
@@ -332,7 +332,7 @@
         private Label label5;
         private Label label4;
         private Label label3;
-        private TextBox TxtCategoryObservation;
+        private TextBox TxtCategoryDescription;
         private TextBox TxtCategoryName;
         private TextBox TxtCategoryId;
         private Button BtnCancel;
