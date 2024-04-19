@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\Proyectos\\Supermarket-mvp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D1CDB8F5-B21F-4322-8134-DCE192E62E7A}|Supermarket-mvp.csproj|c:\\users\\usuario\\documents\\proyectos\\supermarket-mvp\\presenters\\categorypresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1CDB8F5-B21F-4322-8134-DCE192E62E7A}|Supermarket-mvp.csproj|solutionrelative:presenters\\categorypresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1CDB8F5-B21F-4322-8134-DCE192E62E7A}|Supermarket-mvp.csproj|c:\\users\\usuario\\documents\\proyectos\\supermarket-mvp\\_repositories\\paymoderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1CDB8F5-B21F-4322-8134-DCE192E62E7A}|Supermarket-mvp.csproj|solutionrelative:_repositories\\paymoderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1CDB8F5-B21F-4322-8134-DCE192E62E7A}|Supermarket-mvp.csproj|c:\\users\\usuario\\documents\\proyectos\\supermarket-mvp\\presenters\\paymodepresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1CDB8F5-B21F-4322-8134-DCE192E62E7A}|Supermarket-mvp.csproj|solutionrelative:presenters\\paymodepresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D1CDB8F5-B21F-4322-8134-DCE192E62E7A}|Supermarket-mvp.csproj|c:\\users\\usuario\\documents\\proyectos\\supermarket-mvp\\_repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1CDB8F5-B21F-4322-8134-DCE192E62E7A}|Supermarket-mvp.csproj|solutionrelative:_repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D1CDB8F5-B21F-4322-8134-DCE192E62E7A}|Supermarket-mvp.csproj|c:\\users\\usuario\\documents\\proyectos\\supermarket-mvp\\views\\categoryview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +30,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PayModePresenter.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\Proyectos\\Supermarket-mvp\\Presenters\\PayModePresenter.cs",
-              "RelativeDocumentMoniker": "Presenters\\PayModePresenter.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\Proyectos\\Supermarket-mvp\\Presenters\\PayModePresenter.cs",
-              "RelativeToolTip": "Presenters\\PayModePresenter.cs",
-              "ViewState": "AQIAAGsAAAAAAAAAAAAuwIkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T02:37:20.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CategoryPresenter.cs",
-              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\Proyectos\\Supermarket-mvp\\Presenters\\CategoryPresenter.cs",
-              "RelativeDocumentMoniker": "Presenters\\CategoryPresenter.cs",
-              "ToolTip": "C:\\Users\\USUARIO\\Documents\\Proyectos\\Supermarket-mvp\\Presenters\\CategoryPresenter.cs",
-              "RelativeToolTip": "Presenters\\CategoryPresenter.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAwwHYAAAA1AAAA",
+              "Title": "PayModeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\Proyectos\\Supermarket-mvp\\_Repositories\\PayModeRepository.cs",
+              "RelativeDocumentMoniker": "_Repositories\\PayModeRepository.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\Proyectos\\Supermarket-mvp\\_Repositories\\PayModeRepository.cs",
+              "RelativeToolTip": "_Repositories\\PayModeRepository.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAcwEsAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T02:36:34.514Z",
+              "WhenOpened": "2024-04-19T02:46:49.728Z",
               "EditorCaption": ""
             }
           ]
@@ -64,16 +51,16 @@
       "FloatingWindowState": {
         "Id": "34f7e17d-deb0-4839-ba83-a6b0c40ccaa1",
         "Display": 0,
-        "X": 13,
-        "Y": 23,
-        "Width": 1110,
-        "Height": 1155,
+        "X": -9,
+        "Y": -1,
+        "Width": 1387,
+        "Height": 1179,
         "WindowState": 0
       },
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
@@ -86,6 +73,19 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-19T01:52:15.097Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\Proyectos\\Supermarket-mvp\\_Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "_Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\Proyectos\\Supermarket-mvp\\_Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "_Repositories\\CategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T02:46:27.252Z",
+              "EditorCaption": ""
             }
           ]
         }
