@@ -104,10 +104,10 @@ namespace Supermarket_mvp._Repositories
                     connection.Open();
                     command.Connection = connection;
                     command.CommandText = @"SELECT * FROM Provider
-                                       WHERE Provider_Id = @id OR Provider_Name LIKE @name + '%'
-                                       ORDER BY Provider_Id DESC";
-                    command.Parameters.Add("@id", SqlDbType.Int).Value = providerId;
-                    command.Parameters.Add("@name", SqlDbType.NVarChar).Value = providerName;
+                                       WHERE Provider_Id = @Provider_Id OR Provider_Name LIKE @Provider_Name + '%'
+                                       ORDER BY Provider_Id";
+                    command.Parameters.Add("@Provider_Id", SqlDbType.Int).Value = providerId;
+                    command.Parameters.Add("@Provider_Name", SqlDbType.NVarChar).Value = providerName;
                     using (var reader = command.ExecuteReader())
                     {
                         while (reader.Read())
