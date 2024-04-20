@@ -38,12 +38,7 @@
             BtnDeletes = new Button();
             BtnEdits = new Button();
             BtnNews = new Button();
-            BtnClose = new Button();
-            BtnDelete = new Button();
-            BtnEdit = new Button();
-            BtnNew = new Button();
             DgProviders = new DataGridView();
-            BtnSearch = new Button();
             label2 = new Label();
             TxtSearch = new TextBox();
             tabPageProvidersDetail = new TabPage();
@@ -115,12 +110,9 @@
             tabPageProvidersList.Controls.Add(BtnDeletes);
             tabPageProvidersList.Controls.Add(BtnEdits);
             tabPageProvidersList.Controls.Add(BtnNews);
-            tabPageProvidersList.Controls.Add(BtnClose);
-            tabPageProvidersList.Controls.Add(BtnDelete);
-            tabPageProvidersList.Controls.Add(BtnEdit);
-            tabPageProvidersList.Controls.Add(BtnNew);
+           
             tabPageProvidersList.Controls.Add(DgProviders);
-            tabPageProvidersList.Controls.Add(BtnSearch);
+            
             tabPageProvidersList.Controls.Add(label2);
             tabPageProvidersList.Controls.Add(TxtSearch);
             tabPageProvidersList.Location = new Point(4, 24);
@@ -183,43 +175,43 @@
             // 
             // BtnClose
             // 
-            BtnClose.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            BtnClose.Image = Properties.Resources.cerrar;
-            BtnClose.Location = new Point(1214, 254);
-            BtnClose.Name = "BtnClose";
-            BtnClose.Size = new Size(133, 51);
-            BtnClose.TabIndex = 7;
-            BtnClose.UseVisualStyleBackColor = true;
+            //BtnClose.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            //BtnClose.Image = Properties.Resources.cerrar;
+            //BtnClose.Location = new Point(1214, 254);
+            //BtnClose.Name = "BtnClose";
+            //BtnClose.Size = new Size(133, 51);
+            //BtnClose.TabIndex = 7;
+            //BtnClose.UseVisualStyleBackColor = true;
             // 
             // BtnDelete
             // 
-            BtnDelete.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            BtnDelete.Image = Properties.Resources.delete;
-            BtnDelete.Location = new Point(1214, 197);
-            BtnDelete.Name = "BtnDelete";
-            BtnDelete.Size = new Size(133, 51);
-            BtnDelete.TabIndex = 6;
-            BtnDelete.UseVisualStyleBackColor = true;
+            //BtnDelete.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            //BtnDelete.Image = Properties.Resources.delete;
+            //BtnDelete.Location = new Point(1214, 197);
+            //BtnDelete.Name = "BtnDelete";
+            //BtnDelete.Size = new Size(133, 51);
+            //BtnDelete.TabIndex = 6;
+            //BtnDelete.UseVisualStyleBackColor = true;
             // 
             // BtnEdit
             // 
-            BtnEdit.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            BtnEdit.Image = Properties.Resources.edit;
-            BtnEdit.Location = new Point(1214, 140);
-            BtnEdit.Name = "BtnEdit";
-            BtnEdit.Size = new Size(133, 51);
-            BtnEdit.TabIndex = 5;
-            BtnEdit.UseVisualStyleBackColor = true;
+            //BtnEdit.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            //BtnEdit.Image = Properties.Resources.edit;
+            //BtnEdit.Location = new Point(1214, 140);
+            //BtnEdit.Name = "BtnEdit";
+            //BtnEdit.Size = new Size(133, 51);
+            //BtnEdit.TabIndex = 5;
+                 //BtnEdit.UseVisualStyleBackColor = true;
             // 
             // BtnNew
             // 
-            BtnNew.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+           /* BtnNew.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             BtnNew.Image = Properties.Resources._new;
             BtnNew.Location = new Point(1214, 83);
             BtnNew.Name = "BtnNew";
             BtnNew.Size = new Size(133, 51);
             BtnNew.TabIndex = 4;
-            BtnNew.UseVisualStyleBackColor = true;
+            BtnNew.UseVisualStyleBackColor = true;*/
             // 
             // DgProviders
             // 
@@ -236,13 +228,13 @@
             // 
             // BtnSearch
             // 
-            BtnSearch.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            BtnSearch.Image = Properties.Resources.search_small;
-            BtnSearch.Location = new Point(1161, 36);
-            BtnSearch.Name = "BtnSearch";
-            BtnSearch.Size = new Size(38, 41);
-            BtnSearch.TabIndex = 2;
-            BtnSearch.UseVisualStyleBackColor = true;
+            //*BtnSearch.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            //BtnSearch.Image = Properties.Resources.search_small;
+            //BtnSearch.Location = new Point(1161, 36);
+            //BtnSearch.Name = "BtnSearch";
+            //BtnSearch.Size = new Size(38, 41);
+            //BtnSearch.TabIndex = 2;
+            //BtnSearch.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -423,12 +415,12 @@
         private Label label1;
         private TabControl tabControl1;
         private TabPage tabPageProvidersList;
-        private Button BtnClose;
-        private Button BtnDelete;
-        private Button BtnEdit;
-        private Button BtnNew;
+       // private Button BtnClose;
+        //private Button BtnDelete;
+        //private Button BtnEdit;
+        //private Button BtnNew;
         private DataGridView DgProviders;
-        private Button BtnSearch;
+        //private Button BtnSearch;
         private Label label2;
         private TextBox TxtSearch;
         private TabPage tabPageProvidersDetail;
